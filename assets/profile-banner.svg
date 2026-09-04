@@ -1,0 +1,63 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="320" viewBox="0 0 1200 320" role="img" aria-labelledby="title description">
+  <title id="title">Abdul Hakam — Electronic and Telecommunication Engineering</title>
+  <desc id="description">Portfolio banner highlighting embedded systems, robotics, electronics, and intelligent software.</desc>
+  <defs>
+    <linearGradient id="background" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#071826"/>
+      <stop offset="0.5" stop-color="#0d3048"/>
+      <stop offset="1" stop-color="#0b5964"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#43d9c5"/>
+      <stop offset="1" stop-color="#5ea9ff"/>
+    </linearGradient>
+    <radialGradient id="glow">
+      <stop offset="0" stop-color="#35d4c2" stop-opacity="0.28"/>
+      <stop offset="1" stop-color="#35d4c2" stop-opacity="0"/>
+    </radialGradient>
+    <pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse">
+      <path d="M32 0H0V32" fill="none" stroke="#8be5dd" stroke-opacity="0.07"/>
+    </pattern>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="5" stdDeviation="8" flood-color="#020b12" flood-opacity="0.45"/>
+    </filter>
+  </defs>
+
+  <rect width="1200" height="320" rx="24" fill="url(#background)"/>
+  <rect width="1200" height="320" rx="24" fill="url(#grid)"/>
+  <circle cx="1080" cy="25" r="310" fill="url(#glow)"/>
+  <circle cx="60" cy="330" r="230" fill="url(#glow)" opacity="0.45"/>
+
+  <g fill="none" stroke="#63d9ce" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" opacity="0.55">
+    <path d="M885 65h70l20 20h64"/>
+    <path d="M930 255h70l22-22h92"/>
+    <path d="M830 112h65l19 19h46"/>
+    <path d="M1065 112v54l-20 20v40"/>
+    <circle cx="882" cy="65" r="6" fill="#63d9ce"/>
+    <circle cx="1045" cy="85" r="6" fill="#63d9ce"/>
+    <circle cx="927" cy="255" r="6" fill="#63d9ce"/>
+    <circle cx="1120" cy="233" r="6" fill="#63d9ce"/>
+    <circle cx="827" cy="112" r="6" fill="#63d9ce"/>
+    <circle cx="966" cy="131" r="6" fill="#63d9ce"/>
+  </g>
+
+  <g transform="translate(930 113)" filter="url(#shadow)">
+    <rect x="0" y="0" width="126" height="96" rx="18" fill="#0a2131" stroke="url(#accent)" stroke-width="3"/>
+    <rect x="25" y="20" width="76" height="58" rx="8" fill="#113b4d" stroke="#77e4d8" stroke-width="2"/>
+    <circle cx="49" cy="48" r="8" fill="#55daca"/>
+    <circle cx="78" cy="48" r="8" fill="#5baefc"/>
+    <path d="M45 68h37" stroke="#b9f5ef" stroke-width="3" stroke-linecap="round"/>
+    <g stroke="#6ddfd3" stroke-width="3">
+      <path d="M15 0v-14M39 0v-14M63 0v-14M87 0v-14M111 0v-14"/>
+      <path d="M15 96v14M39 96v14M63 96v14M87 96v14M111 96v14"/>
+      <path d="M0 18h-14M0 48h-14M0 78h-14M126 18h14M126 48h14M126 78h14"/>
+    </g>
+  </g>
+
+  <g transform="translate(76 78)" filter="url(#shadow)">
+    <text x="0" y="58" fill="#ffffff" font-family="Segoe UI, Arial, sans-serif" font-size="58" font-weight="700" letter-spacing="1">Abdul Hakam</text>
+    <rect x="2" y="78" width="520" height="5" rx="2.5" fill="url(#accent)"/>
+    <text x="0" y="122" fill="#c9eaf0" font-family="Segoe UI, Arial, sans-serif" font-size="25" font-weight="500">Electronic &amp; Telecommunication Engineering</text>
+    <text x="0" y="164" fill="#8fbdc9" font-family="Segoe UI, Arial, sans-serif" font-size="20" letter-spacing="1.2">EMBEDDED SYSTEMS  •  ROBOTICS  •  AI &amp; COMPUTER VISION</text>
+  </g>
+</svg>
