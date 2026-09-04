@@ -74,13 +74,11 @@
 <table>
   <tr>
     <td width="50%" valign="top">
-      <a href="https://github.com/hakammra/Restaurent-Robot"><img src="https://raw.githubusercontent.com/hakammra/Restaurent-Robot/main/docs/images/completed-prototype.png" width="100%" alt="Servie autonomous restaurant delivery robot"></a>
       <h3>🍽️ <a href="https://github.com/hakammra/Restaurent-Robot">Servie — Restaurant Delivery Robot</a></h3>
       <p>An autonomous food-delivery robot integrating magnetic-line navigation, encoder feedback, ultrasonic obstacle detection, tray load sensing, custom electronics, and a restaurant web interface.</p>
       <p><code>ESP32-S3</code> <code>STM32</code> <code>C/C++</code> <code>PCB</code> <code>React</code></p>
     </td>
     <td width="50%" valign="top">
-      <a href="https://github.com/hakammra/asl-fingerspelling-webcam"><img src="https://raw.githubusercontent.com/hakammra/asl-fingerspelling-webcam/main/docs/images/sample-collection.png" width="100%" alt="Real-time ASL fingerspelling recognizer"></a>
       <h3>🤟 <a href="https://github.com/hakammra/asl-fingerspelling-webcam">Real-Time ASL Fingerspelling</a></h3>
       <p>A webcam system that learns static ASL poses from normalized 3D hand landmarks and recognizes them live using a calibrated SVM, confidence filtering, rejection poses, and temporal voting.</p>
       <p><code>Python</code> <code>MediaPipe</code> <code>OpenCV</code> <code>scikit-learn</code></p>
